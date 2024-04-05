@@ -1,19 +1,27 @@
 # Инструкция по подключения GitHab и Git к PyCharm
-**1. Открыть PyCharm** 
 
-**2. Что бы подключить наш удалённый репозиторий нужно выбрать VCS | Get from Version Control.** 
-<img width="313" alt="image" src="https://github.com/UliaKaneva/inQUIZitors/assets/144627751/78915643-7d89-4d90-b184-a1271238ebcc">
-![image](https://github.com/UliaKaneva/inQUIZitors/assets/144627751/9bad585d-6327-42fa-ab7e-10fc07e8afac)
+**1. Открыть PyCharm**
+
+**2. Что бы подключить наш удалённый репозиторий нужно выбрать VCS | Get from Version Control.**
+
+![Четыре полоски в левом верхнем углу](img.png)
+
+![VCS | Get from Version Control](img_1.png)
 **3. Далее появится вот такое окно**
 
-<img width="697" alt="image" src="https://github.com/UliaKaneva/inQUIZitors/assets/144627751/9d2a0709-f812-479b-a573-0232b25ca3ca">
+![Вставка URI](img_2.png)
 
-В поле URL нужно вставить эту ссылку: 
+В поле URL нужно вставить эту ссылку:
+
 ```
 https://github.com/UliaKaneva/inQUIZitors
 ```
+
+В поле Directory нужно прописать маршрут до папки с проектом, но оно по умолчанию выбирает проект в котором вы начали,
+поэтому можно не беспокоится.
+
 И нажать Clone.
 
-**4. Далее вас попросят ввести ваши логин и пароль от GitHub, поэтому прошу вас вспомнить их:smile_cat:.**
+**4. Далее вас попросят ввести ваши логин и пароль от GitHub, поэтому прошу вас вспомнить их.**
 
 # Использование Git через PyCharm.
