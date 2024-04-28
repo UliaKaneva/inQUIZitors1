@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Roboto, sans-serif;
+            background: linear-gradient(LightBlue, black);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .main {
+            background-color: #AFEEEE;
+            border-radius: 15px;
+            box-shadow: 0 0 20px
+                rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            width: 300px;
+        }
+
+        .main h2 {
+            color: #000000;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            padding: 15px;
+            border-radius: 10px;
+            border: none;
+            background-color: #E0FFFF;
+            color: black;
+            cursor: pointer;
+            width: 93%;
+            font-size: 16px;
+        }
+
+        button[type="submit"] {
+            padding: 15px;
+            border-radius: 10px;
+            border: none;
+            background-color: #68dbd7;
+            color: black;
+            cursor: pointer;
+            width: 93%;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <h2>Вход</h2>
+    <form action="">
+        <label for="email">Электронная почта:</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            required
+        >
+        <label for="password">Пароль:</label>
+        <input
+            type="password"
+            id="password"
+            name="password"
+            pattern="^(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9])\S{8,}$"
+            title="Пароль должен содержать хотя бу одну цифру, букву, символ, и быть длиной от 8 символов"
+            required
+        >
+        <p></p>
+        <button type="submit">
+            Продолжить
+        </button>
+    </form>
+</div>
+</body>
+</html>
