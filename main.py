@@ -6,7 +6,7 @@ from UserLogin import UserLogin
 from werkzeug.security import generate_password_hash, check_password_hash
 import sqlite3
 import os
-
+#wow
 DATABASE = "/templates/flsite.db"
 DEBUG = True
 SECRET_KEY = "O1I3Uoiub4d5ioU1Bi5odb"
