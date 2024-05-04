@@ -29,7 +29,7 @@ body {
             width: 120px;
             height: 120px;
             background-color: #868d9b;
-            background: url("лицо.jpg");
+            background: url("../images/лицо.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -43,7 +43,7 @@ body {
             width: 100%;
             height: 180px;
             background-color: #e1e7ed;
-            background: url("планета.jpg");
+            background: url("../images/планета.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;

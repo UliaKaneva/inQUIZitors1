@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
-    <link rel="stylesheet" href="style/profile.css">
+    <link rel="stylesheet" href="static/style/profile.css">
 </head>
 <body>
-<div class="card">
+<div class="card">	
     <div class="card_base"></div>
     <div class="card_face"></div>
+	{% for msg in get_flashed_messages() %}
     <div class="user_data">
         <h3>Амелия</h3>
+		<h3>{{msg}}</h3>
     </div>
+	{% endfor %}
+	<p></p>	
     <div class="card_count">
         <div class="count">
             <div class="email">
@@ -36,7 +40,7 @@
         <a href="#">Пройденные викторины</a>
         <a href="#">Мои викторины</a>
         <a href="#">Создать викторину</a>
-        <a href="#">Выйти из аккаунта</a>
+        <a href="logout">Выйти из аккаунта</a>
     </div>
   </div>
 </body>
